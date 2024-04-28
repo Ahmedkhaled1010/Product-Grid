@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+     display: grid;
+
+    grid-template-areas: 
+    "item1 item1 item2 item2"
+    "item3 item4 item4 item5"
+    "item6 item7 item7 item5"
+    "item8 item9 item10 item10"
+    
+    ;
+}
+
+.child1 {
+    grid-area: item1;
+
+    padding: 0 30px;
+  
+   
+    display: flex;
+
+    .i {
+
+        align-self: center;
+    }
+
+    p {
+        font-family: Arvo, sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 32px;
+        color: rgb(51, 51, 51);
+    }
+
+    span {
+        font-family: Montserrat, sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        color: rgb(159, 163, 167);
+    }
+
+    h2 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        color: rgb(159, 163, 167);
+    }
+
+    img {
+        width: 80%;
+        padding: auto;
+    }
+
+    div {
+
+        width: 50%;
+        padding: 80px 30px 0 30px;
+    }
+
+
+
+
+}
+
+
+
+
+.child2 {
+    grid-area: item2;
+    text-align: center;
+    background-color: #f7f8f9;
+    padding: 50px 80px;
+
+    p {
+        font-family: Arvo, sans-serif;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 60px;
+        color: rgb(51, 51, 51);
+    }
+
+    span {
+        font-family: "Montserrat - 700";
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        color: rgb(159, 163, 167);
+    }
+
+    a {
+
+        font-family: "Open Sans - 400";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        color: rgb(39, 185, 194);
+    }
+}
+
+.child3 {
+    grid-area: item3;
+    padding: 50px 30px;
+
+    text-align: center;
+    background-color: #f05638;
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        font-family: Arvo, sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 32px;
+        padding: 0 30px;
+        color: rgb(255, 251, 251);
+    }
+
+    a {
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 26px;
+        color: rgb(255, 200, 10);
+        text-decoration: none;
+    }
+}
+
+.child4 {
+    grid-area: item4;
+    padding: 30px 30px 0 30px;
+   
+
+    img {
+        width: 40%;
+        margin: 0 50px;
+    }
+
+    display: flex;
+
+    div {
+        width: 50%;
+    }
+
+    p {
+        font-family: Arvo, sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 32px;
+        color: rgb(51, 51, 51);
+        padding: 50px;
+    }
+
+    span {
+        font-family: Montserrat, sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        color: rgb(159, 163, 167);
+    }
+
+    h2 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        color: rgb(159, 163, 167);
+    }
+
+    a {
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 26px;
+        color: rgb(39, 185, 194);
+    }
+
+    .content {
+        padding: 50px;
+    }
+
+}
+
+.child5 {
+    grid-area: item5;
+    background-color: #8f76bc;
+    overflow: hidden;
+
+    .img {
+        margin: 60px auto;
+        background-color: #8166b0;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        overflow: auto;
+
+        div {
+            margin: 20px auto;
+            background-color: #8f76bc;
+            width: 100px;
+            height: 25px;
+            border-radius: 12%;
+
+            h1 {
+                text-align: center;
+                font-family: "Open Sans", sans-serif;
+                font-size: 10px;
+                font-weight: 700;
+                line-height: 23px;
+                color: rgb(255, 255, 255);
+            }
+
+        }
+
+        img {
+            width: 60%;
+            position: relative;
+            left: 60px;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: Montserrat, sans-serif;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 20px;
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    p 
+    {
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        color: rgb(255, 255, 255);
+        span
+        {
+           
+            font-family:  Arvo, sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 36px;
+        color: rgb(255, 255, 255);
+
+        }
+    }
+    div
+    {
+        margin:40px auto;
+        width: 120px;
+        height: 50px;
+        border-radius: 25px;
+        background-color: #ffc80a;
+        h2
+        {
+            text-align: center;
+            padding: 10px;
+            font-family:  "Open Sans", sans-serif;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 32px;
+            color: rgb(0, 0, 0);
+        }
+    }
+    
+}
+
+.child6 {
+    padding: 50px;
+    grid-area: item6;
+    text-align: center;
+    background-color: #f7f8f9;
+
+    img {
+        width: 50%;
+    }
+
+    h2 {
+        font-family: Arvo, sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 32px;
+        color: rgb(51, 51, 51);
+
+    }
+
+    a {
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 26px;
+        color: rgb(39, 185, 194);
+        text-decoration: none;
+
+    }
+}
+
+.child7 
+{
+    grid-area: item7;
+    background-image: url(../images/UX.png);
+    background-repeat: no-repeat;
+    background-size: 600px 210px;
+    background-position: bottom center;
+    background-color: #93b6b7;
+    div
+    {
+        width: 80px;
+        height: 20px;
+        padding: 0 10px;
+        border-radius: 5px;
+        background-color: #fa684f;
+        span
+        {
+            font-family: "Open Sans", sans-serif;
+        font-size: 8px;
+        font-weight: 700;
+        line-height: 20px;
+        color: rgb(255, 255, 255);
+        }
+        position: relative;
+        top: 20px;
+        left: 30px;
+    }
+    h1
+    {
+        text-align: center;
+        padding: 28px ;
+        font-family: Arvo, sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 32px;
+        color: rgb(255, 255, 255);
+        
+    }
+    img
+    {
+       position: relative;
+       left: 150px;
+        width: 55%;
+    }
+}
+
+.child8 
+{
+    grid-area: item8;
+    background-color: #38d5f4;
+    div
+    {
+        margin: auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #35cfed;
+    }
+    i
+    {
+        color: #ffc80a;
+        position: relative;
+        top: 20px;
+        left: 70px;
+    }
+    h2
+    {
+        text-align: center;
+        padding: 28px ;
+        font-family: Arvo, sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 32px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.child9 
+{
+    grid-area: item9;
+    overflow: auto;
+    padding: 20px;
+    div
+    {
+
+        margin: 20px auto;
+
+        width: 80px;
+        height: 20px;
+        border-radius: 5px;
+        background-color: #7bc424;
+        h2
+        {
+            text-align: center;
+        font-family:"Open Sans", sans-serif;
+        font-size: 8px;
+        font-weight: 700;
+        line-height: 20px;
+        color: rgb(255, 255, 255);
+        }
+    }
+    p
+    {
+        text-align: center;
+        font-family:Arvo, sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 32px;
+        color: rgb(51, 51, 51);
+    }
+}
+
+.child10 
+{
+    background-color: #2c2c2c;
+    grid-area: item10;
+    display: flex;
+    align-items: center;
+    div
+    {
+       
+        width: 50%;
+
+    }
+    img
+    {
+        width: 60%;
+    }
+    p
+    {
+        
+        padding: 60px;
+        font-family:Arvo, sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 32px;
+        color: rgb(255, 255, 255);
+    }
+}
+@media  screen and (max-width: 800px) 
+{
+    .container {
+        display: grid;
+   
+       grid-template-areas: 
+       " item2 item2"
+       "item1 item1"
+       "item3 item6"
+       "item4 item4 "
+       "item8 item5"
+       "item7 item5"
+       "item9 item9"
+       "item10 item10"
+
+      
+       ;
+   }
+}
